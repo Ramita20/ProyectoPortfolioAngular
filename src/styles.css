@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    line-height: 13px;
+    background-color: grey;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-scale {
+    transform: scale(1.5);
+}
+
+/*----------------------------------------------------------------------------------*/
+
+@media (min-width: 768px) { /* Medium breakpoint */
+    /* ============================= Primer tarjeta ================================== */
+    #first-card {
+        height: 390px;
+    }
+    /* ============================= Tercera tarjeta ================================== */
+}
+
+@media (min-width: 992px) { /* Large breakpoint */
+    /* ============================= Tercera tarjeta ================================== */
+}
